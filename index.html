@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <title>MUMA | Educación Canina</title>
+</head>
+<body>
+    <header>
+        <label><img class="logoimg" src="./images/mumalogo.png" alt="Logo de Muma"></label>
+        <nav>
+            <button class="buttonnav">=</button>
+            <ul class="navbar">
+                <li class="navitem">
+                    <a class="navlink" href="index.html">HOME</a>
+                </li>
+                <li class="navitem">
+                    <a class="navlink" href="servicio.html">SERVICIO</a>
+                </li>
+                <li class="navitem">
+                    <a class="navlink" href="casos.html">CASOS</a>
+                </li>
+                <li class="navitem">
+                    <a class="navlink" href="preguntas.html">PREGUNTAS</a>
+                </li>
+                <li class="navitem">
+                    <a class="navlink" href="blog.html">BLOG</a>
+                </li>
+                <li class="navitem">
+                    <a class="navlink" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})
+	</script>
+    <main>
+        <div class="banner">
+            <div class="banner__container">
+                <img src="./images/bannermumalogo.png" alt="Logo de Muma" class="banner__container__img">
+                <h1 class="h1banner">EDUCANINA</h1>
+            </div>
+        </div>
+        <div class="main">
+            <h2>SUMATE AL TEAM MUMA</h2>
+            <p>La educación canina no sólo es para ellos, para nosotros también. Te proporciona herramientas para manejar ciertas situaciones del día a día con confianza y fortalece el vínculo que los une. Nos hace entender cuáles son sus necesidades para poder trabajar en ello y brindarle una mejor vida. 
+            </p>
+            <h3>¡Construyamos juntos una mejor relación!</h3>
+        </div>
+        <div class="lastmain">
+            <div class="lastmaintitle">
+                <h2>¿QUÉ ES MUMA?</h2>
+            </div>
+            <div class="lastmaincontainer">
+                <p>¡Hola! Mi nombre es Gimena y soy Educadora Canina. A finales del 2021 con mucho esfuerzo y dedicación cree Muma. Mi trabajo será darte el apoyo y las herramientas necesarias para afianzar el vínculo con tu perro y modificar las conductas indeseadas a través del aprendizaje en positivo, enfocándonos siempre en su salud y bienestar.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="foot">
+        <div class="footmenu">
+            <ul>
+                <li><h4>MENU</h4></li>
+                <li><a href="index.html"><img src="images/iconlist.png" class="iconlist">Home</a></li>
+                <li><a href="servicio.html"><img src="images/iconlist.png" class="iconlist">Servicio</a></li>
+                <li><a href="casos.html"><img src="images/iconlist.png" class="iconlist">Casos</a></li>
+                <li><a href="preguntas.html"><img src="images/iconlist.png" class="iconlist">Preguntas</a></li>
+                <li><a href="blog.html"><img src="images/iconlist.png" class="iconlist">Blog</a></li>
+                <li><a href="contacto.html"><img src="images/iconlist.png" class="iconlist">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="formbox">
+            <h4>CONTACTO</h4>
+            <div class="footinput">
+                <input type="text" placeholder="Nombre y apellido">
+                <input type="text" placeholder="Nombre de tu mascota">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Teléfono">
+            </div>
+            <div class="foottext">
+                <textarea type="text" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+        <div class="footrrss">
+            <ul>
+                <li><h4>SEGUINOS</h4></li>
+                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/whatsapp.svg" class="iconrrss">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/instagram.svg" class="iconrrss">Instagram</a></li>
+                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/linkedin.svg" class="iconrrss">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/facebook.svg" class="iconrrss">Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div>
+    <p class="footcopy">© 2022 MUMA | Todos los derechos reservados | Design by Mauro Aguilar</p>
+    </div>
+</body>
+</html>
