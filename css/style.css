@@ -4,11 +4,11 @@
 }
 
 .body{
-    background-color: #f3f8f7;
+    background-color: radial-gradient(circle, rgba(244,245,240,1) 0%, rgba(230,238,237,1) 47%, rgba(223,235,233,1) 100%);
 }
 
 /* BANNER */
-.banner {
+/*.banner {
     display: flex;
     justify-content: center;
     height: 600px;
@@ -16,16 +16,64 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}*/
+/* SLIDER */
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambioslider 30s infinite normal;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+
+    
+}
+.slider img{
+    width: 100%;
+}
+.slider li:before {
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+@keyframes cambioslider {
+    0%  { margin-left: 0%;}
+    20% { margin-left: 0%;}
+    30% { margin-left: -100%;}
+    50% { margin-left: -100%;}
+    60% { margin-left: -200%;}
+    80% { margin-left: -200%;}
+    85% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+
 
 .banner__container {
     margin: auto;
     padding: auto;
+    z-index: 1;
 }
 
 .banner__container__img {
     display: flex;
     justify-content: center;
+
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(-1px 1px 7px #111815b3);
@@ -55,6 +103,8 @@
     background-position: center;
     background-size: cover;
 }
+
+
 
 .banner__container2 {
     margin: auto;
@@ -96,12 +146,11 @@
 
 /* HEADER */
 header {
-    background-color: #f3f8f7;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+    background: #f3f8f7;
+    background-color: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
     margin: auto;
-    height: 62px;
+    height: 65px;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -110,38 +159,31 @@ header {
 }
 
 .logoimg {
-    display: flex;
-    flex-wrap: inherit;
     width: 100px;
     height: 30px;
     margin: 0;
     padding: 0;
     align-items: left;
-    opacity: 100%;
-}
-
-.buttonnav {
-    display: none;
 }
 
 .navbar {
+    height: auto;
+    margin: 0px;
     list-style: none;
     background-color: none;
-    font-family: 'Calibri'; 
+    font-family: 'Calibri';
     font-weight: bold;
-    color: #f3f8f7;
+    color: none;
 }
 
 .navbar ul {
     list-style-type: none;
-    margin: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 0px;
     background-color: none;
   }
 
-.navbar li {
-    float: left;
-}
+
   
 .navbar a {
     list-style: none;
@@ -154,6 +196,7 @@ header {
 .navbar li a:hover {
     background-color: #6e9e96;
     background-size: 100%;
+    height: auto;
     color: #f3f8f7;
     font-weight: bold;
     transition: 0.5s ease-out;
@@ -164,63 +207,15 @@ header {
     letter-spacing: 1.5px;
     font-size: 18px;
 }
-
-/* JAVASCRIPT DE HEADER */
-.abajo {
-    background-color: #b1d4ce;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 50px;
-    margin: auto;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    padding: 0px;
-    box-shadow: #11181555 0.1em 0.1em 0.2em;
-    transition: 1s ease-out;
-}
-
-.abajo .logoimg {
-    display: flex;
-    width: 100px;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    align-items: left;
-    opacity: 100%;
-    transition: 2s ease-out;
-}
-
-.abajo .navbar li a:hover {
-    background-color: #6e9e96;
-    color: #f3f8f7;
-    font-weight: bold;
-    transition: 1s ease-out;
-}
-
-.abajo .navlink {
-    display: flex;
-    justify-content: left;
-    color: #364b47;
-    letter-spacing: 1.5px;
-    font-size: 18px;
-    transition: 1s ease-out;
-}
-
-.abajo .navbar li {
-    float: left;
-}
-
 /* MAIN */
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 40vh ; 
-    margin-right: 40vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0vh ; 
+    margin-right: 0vh;
 }
 
 .main h2 {
@@ -510,192 +505,3 @@ header {
 
 
 /* MEDIA */ 
-@media (max-width:1020px){
-    .banner {
-        height: 500px;
-    } 
-    .main {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 3vh ; 
-        margin-right: 3vh;
-    }
-    .main h2 {
-        font-size: 30px;
-    }
-    .main p {
-        font-size: 18px;
-    }
-    .main h3 {
-        font-size: 22px;
-    } 
-    .lastmaintitle {
-        margin: 5%;
-        margin-left: 5vh;
-        margin-right: 0px;
-        width: 150px;
-        padding: 10px 30px 10px 10px;
-    }
-    .lastmaincontainer {
-        margin: 5%;
-        margin-right: 5vh;
-        margin-left: 0%;
-    }
-    .maincasos {
-        margin-left: 4vh ; 
-        margin-right: 4vh;
-    }    
-    .caso {
-        padding: 10px 10px 10px 10px;
-        margin: 10px;
-        height: 300px;
-    
-    }  
-}
-
-@media (max-width: 800px) {
-    .banner {
-        height: 300px;
-    } 
-    .banner__container img {
-        width: 70%;
-    }
-    .banner2 {
-        height: 300px;
-    }
-    .banner2 p {
-        font-size: 18px;
-    }
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .buttonnav {
-        display: flex;
-        background-color: #6e9e96;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px #3e4a4830;
-        border-radius: 5px;
-        color: white;
-        font-size: 40px;
-        height: 30px;
-        width: 30px;
-        padding: 5px 10px;
-        margin: 0px 10px 10px 0px;
-        text-align: center;
-        text-decoration: bold;
-        cursor: pointer;
-    }
-    .navbar {
-        display: none;
-    }
-    .main {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 5vh ; 
-        margin-right: 5vh;
-    }
-    .main h2 {
-        font-size: 30px;
-    }
-    .main p {
-        font-size: 18px;
-    }
-    .main h3 {
-        font-size: 22px;
-    } 
-    .lastmaintitle {
-        margin: 5%;
-        margin-left: 5vh;
-        margin-right: 0px;
-        width: 150px;
-        padding: 10px 30px 10px 10px;
-    }
-    .lastmaincontainer {
-        margin: 5%;
-        margin-right: 5vh;
-        margin-left: 0%;
-    }
-    .foot {
-        grid-template-columns: auto;
-    }
-    .footmenu {
-        display: none;
-    }
-    .formbox {
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .footinput {
-        display: flex;
-        width: 500px;
-        flex-direction: column;
-        margin: 10px 20px 3px 0px;
-    }
-    .foottext {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .foottext textarea{
-        justify-content: center;
-        width: 500px;
-        height: 100px;
-        padding: 5px;
-        margin: 0px 10px 10px 0px;
-    }
-    .foottext button {
-        width: 98%;
-        padding: 5px 20px;
-        margin: 0px 10px 10px 0px;
-    }
-}
-
-@media (max-width: 400px) {
-    .lastmaintitle {
-        margin: 5%;
-        margin-left: 5vh;
-        margin-right: 0px;
-        width: 150px;
-        padding: 10px 20px 10px 10px;
-    }
-    .foot {
-        grid-template-columns: auto;
-    }
-    .footmenu {
-        display: none;
-    }
-    .formbox {
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .footinput {
-        display: flex;
-        width: 322px;
-        flex-direction: column;
-        margin: 10px 20px 3px 0px;
-    }
-    .foottext {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .foottext textarea{
-        justify-content: center;
-        width: 322px;
-        height: 100px;
-        padding: 5px;
-        margin: 0px 10px 10px 0px;
-    }
-    .foottext button {
-        width: 98%;
-        padding: 5px 20px;
-        margin: 0px 10px 10px 0px;
-    }
-}
