@@ -146,11 +146,10 @@
 
 /* HEADER */
 header {
-
     background: #f3f8f7;
     background-color: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
-    margin: auto;
-    height: 65px;
+    margin: 0px;
+    height: 85px;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -158,25 +157,26 @@ header {
     transition: 0.5s ease-out;
 }
 
-.logoimg {
+.navbar__logo {
     width: 100px;
     height: 30px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     align-items: left;
 }
 
 .navbar {
-    height: auto;
+    height: 85px;
     margin: 0px;
     list-style: none;
-    background-color: none;
+    background-color: #f3f8f7;
     font-family: 'Calibri';
     font-weight: bold;
     color: none;
 }
 
 .navbar ul {
+    background-color: #f3f8f7;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -188,24 +188,32 @@ header {
 .navbar a {
     list-style: none;
     text-decoration: none;
-    display: inline-block;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     background-color: none;
 }
 
 .navbar li a:hover {
     background-color: #6e9e96;
     background-size: 100%;
-    height: auto;
+    height: 85px;
+    margin: 0px;
     color: #f3f8f7;
     font-weight: bold;
+    border-radius: 20px;
     transition: 0.5s ease-out;
 }
 
 .navlink {
+    padding: 0px;
+    margin: 0px;
     color: #6e9e96;
     letter-spacing: 1.5px;
     font-size: 18px;
+}
+
+.nav-item {
+    padding: 0px;
+    margin: 0px;
 }
 /* MAIN */
 .main {
