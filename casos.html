@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="keywords" content="muma, educacion canina, educanina, educacion canina amable, positiva, sin violencia, perros, perro, mascota, petshop, servicio canino, entrenamiento, adiestramiento, adiestrador, clases presenciales, clases online, buenos aires, argentina">
+    <meta name="description" content="Muma ofrece servicios de educación canina positiva y sin violencia para fortalecer el vínculo con las mascotas">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <!-- TITULO -->
     <title>MUMA | Casos</title>
 </head>
 <body>
     <header>
-        <label><img class="logoimg" src="./images/mumalogo.png" alt="Logo de Muma"></label>
-        <nav>
-            <ul class="navbar">
-                <li class="navitem">
-                    <a class="navlink" href="index.html">HOME</a>
-                </li>
-                <li class="navitem">
-                    <a class="navlink" href="servicio.html">SERVICIO</a>
-                </li>
-                <li class="navitem">
-                    <a class="navlink" href="casos.html">CASOS</a>
-                </li>
-                <li class="navitem">
-                    <a class="navlink" href="preguntas.html">PREGUNTAS</a>
-                </li>
-                <li class="navitem">
-                    <a class="navlink" href="blog.html">BLOG</a>
-                </li>
-                <li class="navitem">
-                    <a class="navlink" href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand"><img class="navbar__logo" src="./images/mumalogo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="navlink" href="#">HOME</a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink" href="servicio.html">SERVICIO</a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink" href="casos.html">CASOS</a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink" href="preguntas.html">PREGUNTAS</a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <script type="text/javascript">
-		window.addEventListener("scroll", function(){
-			var header = document.querySelector("header");
-			header.classList.toggle("abajo",window.scrollY>0);
-		})
-	</script>
     <main>
         <div class="banner2">
             <div class="banner__container2">
@@ -47,85 +57,92 @@
                 <p>¡TE PRESENTAMOS A LOS AMIGOS MUMA!</p>
             </div>
         </div>
-        <div class="maincasos">
-            <div class="caso">
-                <div class="casofoto"><img src="./images/Fury.jpg"></div>
-                <div class="casonombre"><h2>Fury</h2></div>
-                <div class="casotexto">
-                    <p>Cuando lo vi, me enamoré. Fury no sólo es alguien en MUMA, lo es todo. Lo adopté y fue la decisión más linda que tomé en la vida. No sabemos bien qué le pasó. Tuvo un accidente que lo dejó sin un ojo, con visión disminuida, con la mandíbula rota y pérdida de la audición. Con amor y dedicasión fue mejorando convirtiéndose en parte de la familia.
+        <div class="container caso mx-auto">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12 "><img class="casofoto" src="./images/Fury.jpg"></div>
+                <div class="col-lg-10 col-md-8 col-sm-12"><h2>Fury</h2>
+                    <p class="casotexto">Cuando lo vi, me enamoré. Fury no sólo es alguien en MUMA, lo es todo. Lo adopté y fue la decisión más linda que tomé en la vida. No sabemos bien qué le pasó. Tuvo un accidente que lo dejó sin un ojo, con visión disminuida, con la mandíbula rota y pérdida de la audición. Con amor y dedicasión fue mejorando convirtiéndose en parte de la familia.
                     <br>Para ser educadora canina hay que estudiar mucho, pero por sobretodo hay que practicar y fortalecer el vínculo. Junto a él pude dar mi exámen final y recibirme. Ambos aprendimos el uno del otro y hoy soy una de las tutoras más afortunadas del mundo. Tener en la familia a alguien como Fury representa todo un desafío. Si bien tiene limitaciones, no hay reto que con mucha paciencia no haya logrado.
                     </p>
                 </div>
             </div>
-            <div class="caso">
-                <div class="casofoto"><img src="./images/Felipe.jpg"></div>
-                <div class="casonombre"><h2>Felipe</h2></div>
-                <div class="casotexto">
-                    <p>Él es Felipe, un perrito de 4 años rescatado de una muy mala vida. Comenzó con clase de educación canina ya que tenía una aparente reactividad a perros: básicamente no le gustaba socializar con nadie más que con su hermana perruna Muna. Junto a su tutora Leti, en la primera clase notamos que Feli sólo se ofuscaba cuando paseaba junto con Muna, probamos paseos apartados uno del otro y comenzó a relacionarse con otros perros, sin ser demasiado juguetón pero permitiendo olerse/que lo huelan.
+        </div>
+        <div class="container caso mx-auto">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12 "><img class="casofoto" src="./images/Felipe.jpg"></div>
+                <div class="col-lg-10 col-md-8 col-sm-12"><h2>Felipe</h2>
+                    <p class="casotexto">Él es Felipe, un perrito de 4 años rescatado de una muy mala vida. Comenzó con clase de educación canina ya que tenía una aparente reactividad a perros: básicamente no le gustaba socializar con nadie más que con su hermana perruna Muna. Junto a su tutora Leti, en la primera clase notamos que Feli sólo se ofuscaba cuando paseaba junto con Muna, probamos paseos apartados uno del otro y comenzó a relacionarse con otros perros, sin ser demasiado juguetón pero permitiendo olerse/que lo huelan.
                     <br>Conclusión, su hermana Muna es una perra muy activa que suele invitar a jugar en la calle y este es el motivo por el que Feli no estaba a gusto socializando cuando ambos paseaban juntos, ahora estamos trabajando día a día tanto la intensidad de Muna como la paciencia de Feli para equilibrar esta manada y que poco a poco puedan salir a pasear en manada.
                     </p>
                 </div>
             </div>
-            <div class="caso">
-                <div class="casofoto"><img src="./images/Flaco.jpg"></div>
-                <div class="casonombre"><h2>Flaco</h2></div>
-                <div class="casotexto">
-                    <p>Flaco es un galgo de unos 4 años, llegó a Muma dado que pasó por un cambio que lo abrumó, se mudaron de casa y pasaron de un barrio muy tranquilo donde tenía mayores libertades, como pasear sin correa a uno mucho más transitado donde sólo puede salir a la calle con su tutora. El cambio lo estresó al punto de no poder quedarse sólo cuando su familia no está y ponerse a la defensiva con otros perros en la calle.
+        </div>
+        <div class="container caso mx-auto">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12 "><img class="casofoto" src="./images/Flaco.jpg"></div>
+                <div class="col-lg-10 col-md-8 col-sm-12"><h2>Flaco</h2>
+                    <p class="casotexto">Flaco es un galgo de unos 4 años, llegó a Muma dado que pasó por un cambio que lo abrumó, se mudaron de casa y pasaron de un barrio muy tranquilo donde tenía mayores libertades, como pasear sin correa a uno mucho más transitado donde sólo puede salir a la calle con su tutora. El cambio lo estresó al punto de no poder quedarse sólo cuando su familia no está y ponerse a la defensiva con otros perros en la calle.
                     <br>El primer paso fue enseñarle a Gaby, su tutora, a darle paseos de calidad en donde utilice mucho el olfato, hagan menores distancias pero que tenga sus tiempos para explorar y que conozca su nuevo barrio a su tiempo. Sólo esto bastó para que Flaco ya no vea a los demás perros como una amenaza. Dentro del hogar positivizamos los espacios que frecuenta como el living, la cocina y sobre todo su patio, con juegos y mucho enriquecimiento ambiental para que poco a poco se sienta a gusto como en su casa anterior y pueda gestionar la soledad.
                     </p>
                 </div>
             </div>
-            <div class="caso">
-                <div class="casofoto"><img src="./images/Osa.jpg"></div>
-                <div class="casonombre"><h2>Osa</h2></div>
-                <div class="casotexto">
-                    <p>Esta mestiza de 1 año y medio se llama Osa, junto con sus tutores Mariela y Daniel comenzaron con las clases de educación dado que se sobreexcita ante muchos estímulos y se dispersaba en el paseo.
+        </div>
+        <div class="container caso mx-auto">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12 "><img class="casofoto" src="./images/Osa.jpg"></div>
+                <div class="col-lg-10 col-md-8 col-sm-12"><h2>Osa</h2>
+                    <p class="casotexto">Esta mestiza de 1 año y medio se llama Osa, junto con sus tutores Mariela y Daniel comenzaron con las clases de educación dado que se sobreexcita ante muchos estímulos y se dispersaba en el paseo.
                     <br>El primer paso fue comenzar a enseñarle comandos que requieran de su atención como el “sentado” y el “quieto”, esto fortalece la atención hacia sus tutores. En los paseos comenzamos a salir con snacks sólo para solicitar su atención cuando notábamos que se elevaba su ansiedad y si respondía al llamado premiarla. En una semana empezó a pasear con mayor tranquilidad, explotar el entorno, responder al llamado y a los comandos. Aún estamos trabajando la excitación dentro de casa al recibir a las visitas.
                     </p>
                 </div>
             </div>
         </div>
+
+
     </main>
-
-
-
-    <footer class="foot">
-        <div class="footmenu">
-            <ul>
-                <li><h4>MENU</h4></li>
-                <li><a href="index.html"><img src="images/iconlist.png" class="iconlist">Home</a></li>
-                <li><a href="servicio.html"><img src="images/iconlist.png" class="iconlist">Servicio</a></li>
-                <li><a href="casos.html"><img src="images/iconlist.png" class="iconlist">Casos</a></li>
-                <li><a href="preguntas.html"><img src="images/iconlist.png" class="iconlist">Preguntas</a></li>
-                <li><a href="blog.html"><img src="images/iconlist.png" class="iconlist">Blog</a></li>
-                <li><a href="contacto.html"><img src="images/iconlist.png" class="iconlist">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="formbox">
-            <h4>CONTACTO</h4>
-            <div class="footinput">
-                <input type="text" placeholder="Nombre y apellido">
-                <input type="text" placeholder="Nombre de tu mascota">
-                <input type="text" placeholder="E-mail">
-                <input type="text" placeholder="Teléfono">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+        <footer class="foot">
+            <div class="footmenu">
+                <ul>
+                    <li><h4>MENU</h4></li>
+                    <li><a href="index.html"><img src="images/iconlist.png" class="iconlist">Home</a></li>
+                    <li><a href="servicio.html"><img src="images/iconlist.png" class="iconlist">Servicio</a></li>
+                    <li><a href="casos.html"><img src="images/iconlist.png" class="iconlist">Casos</a></li>
+                    <li><a href="preguntas.html"><img src="images/iconlist.png" class="iconlist">Preguntas</a></li>
+                    <li><a href="blog.html"><img src="images/iconlist.png" class="iconlist">Blog</a></li>
+                    <li><a href="contacto.html"><img src="images/iconlist.png" class="iconlist">Contacto</a></li>
+                </ul>
             </div>
-            <div class="foottext">
-                <textarea type="text" placeholder="Mensaje"></textarea>
-                <button>Enviar</button>
+            <div class="formbox">
+                <h4>CONTACTO</h4>
+                <div class="footinput">
+                    <input type="text" placeholder="Nombre y apellido">
+                    <input type="text" placeholder="Nombre de tu mascota">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Teléfono">
+                </div>
+                <div class="foottext">
+                    <textarea type="text" placeholder="Mensaje"></textarea>
+                    <button>Enviar</button>
+                </div>
             </div>
+            <div class="footrrss">
+                <ul>
+                    <li><h4>SEGUINOS</h4></li>
+                    <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/whatsapp.svg" class="iconrrss">WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/instagram.svg" class="iconrrss">Instagram</a></li>
+                    <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/linkedin.svg" class="iconrrss">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/facebook.svg" class="iconrrss">Facebook</a></li>
+                </ul>
+            </div>
+            </footer>
         </div>
-        <div class="footrrss">
-            <ul>
-                <li><h4>SEGUINOS</h4></li>
-                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/whatsapp.svg" class="iconrrss">WhatsApp</a></li>
-                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/instagram.svg" class="iconrrss">Instagram</a></li>
-                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/linkedin.svg" class="iconrrss">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/mumaeducacioncanina"><img src="images/facebook.svg" class="iconrrss">Facebook</a></li>
-            </ul>
-        </div>
-    </footer>
+    </div>
     <div>
     <p class="footcopy">© 2022 MUMA | Todos los derechos reservados | Design by Mauro Aguilar</p>
     </div>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

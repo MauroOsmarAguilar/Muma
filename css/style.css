@@ -8,61 +8,16 @@
 }
 
 /* BANNER */
-/*.banner {
+.banner {
     display: flex;
     justify-content: center;
     height: 600px;
     background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%), url(../images/banner1.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}*/
-/* SLIDER SIN BOOTSTRAP */ /* Listo para mergear */
-.slider {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
 }
-
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: cambioslider 30s infinite normal;
-}
-
-.slider li {
-    list-style: none;
-    width: 100%;
-
-    
-}
-.slider img{
-    width: 100%;
-}
-.slider li:before {
-    content: "";
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
-    opacity: 0.5;
-    z-index: -1;
-}
-
-@keyframes cambioslider {
-    0%  { margin-left: 0%;}
-    20% { margin-left: 0%;}
-    30% { margin-left: -100%;}
-    50% { margin-left: -100%;}
-    60% { margin-left: -200%;}
-    80% { margin-left: -200%;}
-    85% { margin-left: -300%;}
-    100% { margin-left: -300%;}
-}
-
-
 
 .banner__container {
     margin: auto;
@@ -71,9 +26,6 @@
 }
 
 .banner__container__img {
-    display: flex;
-    justify-content: center;
-
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(-1px 1px 7px #111815b3);
@@ -145,14 +97,13 @@
 }
 
 /* HEADER */
+
 header {
     background: #f3f8f7;
     background-color: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
     margin: 0px;
     height: 85px;
     width: 100%;
-    position: fixed;
-    z-index: 10;
     padding: 0px;
     transition: 0.5s ease-out;
 }
@@ -162,10 +113,11 @@ header {
     height: 30px;
     margin: 0px;
     padding: 0px;
-    align-items: left;
 }
 
 .navbar {
+    display: flex;
+    justify-content:flex-end;
     height: 85px;
     margin: 0px;
     list-style: none;
@@ -184,6 +136,7 @@ header {
   }
 
 .navbar a {
+
     list-style: none;
     text-decoration: none;
     padding: 20px 20px 20px 20px;
@@ -218,10 +171,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0vh ; 
-    margin-right: 0vh;
+    margin: 20px;
 }
 
 .main h2 {
@@ -292,36 +242,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 30vh ; 
-    margin-right: 30vh;
+    margin: 30px;
+
 }
 
 .caso {
-    display: grid;
-    grid-template-columns: repeat(0.5fr, 1fr);
-    grid-template-rows: repeat(2, 0.5fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 5px;
     background-color: #6e9e96;
     border: solid 1px #3e4a4830;
     border-radius: 5px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     margin: 10px;
-    height: 235px;
-
-}
-.casofoto { 
-    grid-area: 1 / 1 / 3 / 2; 
-}
-
-.casonombre {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.casotexto {
-    grid-area: 2 / 2 / 3 / 3; 
+    height: 100%;
 }
 
 .caso img {
@@ -347,17 +278,68 @@ header {
     color: #FFFFFF;
     font-size: 16px;
     text-align: left;
-    margin: 5px 10px 10px 0px;
+    margin: 5px 10px 0px 0px;
 }
 
+/* MAIN SERVICIOS */
+.servicio {
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    filter: drop-shadow(-1px 1px 7px #2b544224);
+}
+
+.servicio img {
+    display: block;
+    margin: 0px auto;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+    height: 200px;
+}
+
+.servicio-texto {
+    font-family: 'Calibri';
+    color: #282828;
+    font-size: 16px;
+    text-align: left;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.servicio h2 {
+    background-color: none;
+    color: #5b8881;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+}
+
+/* ACORDEÓN Q&A */
+.accordion {
+    margin: 20px 0px 20px 0px;
+}
+.accordion-button {
+    font-family: 'Calibri';
+    font-size: 22px;
+    font-weight: bold;
+    color: #5b8881;
+}
 
 /* FOOTER */
 .foot {
     /*display: grid;
     grid-template-columns: auto 40% auto;
     column-gap: 80px;*/
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
     background-color: #b1d4ce;
     font-family: 'Calibri';
     font-style: normal;
@@ -407,8 +389,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 30px;
 }
 
 .footinput {
