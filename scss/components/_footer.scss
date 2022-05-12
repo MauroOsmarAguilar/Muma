@@ -1,0 +1,141 @@
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #b1d4ce;
+    font-family: 'Calibri';
+    font-style: normal;
+
+    .foot h4 {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        color: #3e4a48;
+        border-bottom: solid 1px #3e4a4850;
+    }
+
+    .footmenu {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .footmenu .iconlist {
+            margin: 5px 5px 0px 0px;
+        }
+    
+        .footmenu .iconlist:hover {
+            filter: opacity(0.8);
+        }
+
+        .footmenu ul {
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        .footmenu ul li a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: left;
+        }
+
+        .footmenu ul li a:hover {
+            text-decoration: underline;
+            filter: opacity(0.8);
+        }
+    }   
+
+    .formbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .footinput {
+        display: flex;
+        justify-content: space-between;
+        background-color: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .footinput input {
+            display: flex;
+            background-color: #f0fdf7;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0px 10px 10px 0px;
+            width: 100%;
+        }
+    }
+
+    .foottext textarea{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f0fdf7;
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+        margin: 0px 10px 10px 0px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .foottext button {
+        background-color: #6e9e96;
+        border: solid 1px #3e4a4830;
+        border-radius: 5px;
+        color: white;
+        padding: 5px 10px;
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+
+            .foottext button:hover {
+            background-color: #3e4a48;
+        }
+    }
+
+    .footrrss {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .footrrss ul {
+            text-decoration: none;
+            list-style-type: none;
+        }
+    
+        .footrrss ul li a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        .footrrss a:hover {
+            text-decoration: underline;
+            filter: opacity(0.8);
+        }
+    
+        .iconrrss {
+            margin: 5px 10px 0px 0px;
+            width: 40px;
+            height: 40px;
+            filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);;
+        }
+    }
+
+    .foot a {
+        list-style: none;
+        color:#3e4a48;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
