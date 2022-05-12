@@ -1,0 +1,147 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+    .main h2 {
+        font-family: 'Calibri';
+        font-weight: bolder;
+        font-size: 50px;
+        color: #5b8881;
+        text-justify: center;
+        text-align: center;
+    }
+
+    .main p {
+        font-family: 'Calibri';
+        color: #121212;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .main h3 {
+        background-color: none;
+        color: #5b8881;
+        font-family: 'Calibri';
+        font-size: 28px;
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+}
+
+.lastmain {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%), url(../images/banner2.jpg);
+    background-repeat: fixed 100%;
+    background-position: center;
+    background-size: cover; 
+    transition: 2s ease-out;
+
+    .lastmaintitle {
+        display: flex;
+        justify-content: center;
+        background-color: #5b8881;
+        margin: 5%;
+        margin-left: 35vh;
+        margin-right: 0px;
+        padding: 20px 20px 20px 30px;
+        font-family: 'Calibri';
+        font-size: 20px;
+        color: #f3f8f7;
+    }
+
+    .lastmaincontainer {
+        display: flex;
+        justify-content: center;
+        background-color: #f3f8f7;
+        margin: 5%;
+        margin-right: 35vh;
+        margin-left: 0%;
+        padding: 3%;
+        font-family: 'Calibri';
+        color: #121212;
+    }
+}
+
+.maincasos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+    .caso {
+        background-color: #6e9e96;
+        border: solid 1px #3e4a4830;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        height: 100%;
+    }
+
+    .caso img {
+        background-color: none;
+        max-width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .caso h2 {
+        font-family: 'Calibri';
+        font-weight: bolder;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-justify: left;
+        text-align: left;
+        border-bottom: solid 1px #FFFFFF30;
+        margin-top: 0px;
+    }
+
+    .caso p {
+        font-family: 'Calibri';
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: left;
+        margin: 5px 10px 0px 0px;
+    }
+}
+
+.servicio {
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    filter: drop-shadow(-1px 1px 7px #2b544224);
+    
+    .servicio img {
+        display: block;
+        margin: 0px auto;
+        padding: 10px 10px 10px 0px;
+        text-align: center;
+        height: 200px;
+    }
+
+    .servicio-texto {
+        font-family: 'Calibri';
+        color: #282828;
+        font-size: 16px;
+        text-align: left;
+        margin: 0px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .servicio h2 {
+        background-color: none;
+        color: #5b8881;
+        font-family: 'Calibri';
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 20px 0px 20px;
+    }
+}

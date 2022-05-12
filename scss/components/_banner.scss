@@ -34,3 +34,51 @@
     text-justify: center;
     text-align: center;
 }
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%), url(../images/bannercasos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .banner__container2 {
+        margin: auto;
+        padding: auto;
+    }
+
+    .banner__container__img2 {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        filter: drop-shadow(-1px 1px 7px #111815b3);
+    }
+
+    .h1banner2 {
+        font-family: 'Calibri';
+        color: #f3f8f7;
+        border-bottom: solid 1px;
+        border-color: #fdf8f05d;
+        flex-direction: column;
+        align-items: center;
+        text-shadow: #111815b3 0.1em 0.1em 0.2em;
+        font-size: 48px;
+        letter-spacing: 10px;
+        text-justify: center;
+        text-align: center;
+    }
+
+    .banner2 p {
+        background-color: none;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Calibri';
+        font-size: 28px;
+        text-shadow: #111815b3 0.1em 0.1em 0.2em;
+    }
+}
