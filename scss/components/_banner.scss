@@ -1,0 +1,36 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%), url(../images/banner1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .banner__container {
+        margin: auto;
+        padding: auto;
+        z-index: 1;
+    }
+
+    .banner__container__img {
+        margin-left: auto;
+        margin-right: auto;
+        filter: drop-shadow(-1px 1px 7px #111815b3);
+    }
+}
+
+.h1banner {
+    font-family: 'Calibri';
+    color: $color-casiblanco;
+    border-top: solid 1px;
+    border-color: #fdf8f05d;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: #111815b3 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    letter-spacing: 20px;
+    text-justify: center;
+    text-align: center;
+}
