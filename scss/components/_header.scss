@@ -1,5 +1,5 @@
 header {
-    background: $color-claro;
+    background: $color-casiblanco;
     background-color: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
     margin: 0px;
     height: 85px;
@@ -8,61 +8,62 @@ header {
     transition: 0.5s ease-out;
 }
 
-.navbar__logo {
-    width: 100px;
-    height: 30px;
-    margin: 0px;
-    padding: 0px;
-}
-
 .navbar {
     display: flex;
     justify-content:flex-end;
     height: 85px;
     margin: 0px;
     list-style: none;
-    background-color: $color-claro;
+    background-color: $color-casiblanco;
     font-family: 'Calibri';
     font-weight: bold;
     color: none;
+
+    .navbar__logo {
+        width: 100px;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar ul {
+        background-color: $color-casiblanco;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: none;
+      }
+    
+    .navbar a {
+    
+        list-style: none;
+        text-decoration: none;
+        padding: 20px 20px 20px 20px;
+        background-color: none;
+    }
+    
+    .navbar li a:hover {
+        background-color: $color-marca;
+        background-size: 100%;
+        height: 85px;
+        margin: 0px;
+        color: $color-claro;
+        font-weight: bold;
+        border-radius: 20px;
+        transition: 0.5s ease-out;
+    }
+    
+    .navlink {
+        padding: 0px;
+        margin: 0px;
+        color: $color-marca;
+        letter-spacing: 1.5px;
+        font-size: 18px;
+    }
+    
+    .nav-item {
+        padding: 0px;
+        margin: 0px;
+    }
 }
 
-.navbar ul {
-    background-color: $color-claro;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: none;
-  }
-
-.navbar a {
-
-    list-style: none;
-    text-decoration: none;
-    padding: 20px 20px 20px 20px;
-    background-color: none;
-}
-
-.navbar li a:hover {
-    background-color: $color-principal;
-    background-size: 100%;
-    height: 85px;
-    margin: 0px;
-    color: $color-claro;
-    font-weight: bold;
-    border-radius: 20px;
-    transition: 0.5s ease-out;
-}
-
-.navlink {
-    padding: 0px;
-    margin: 0px;
-    color: $color-principal;
-    letter-spacing: 1.5px;
-    font-size: 18px;
-}
-
-.nav-item {
-    padding: 0px;
-    margin: 0px;
-}
