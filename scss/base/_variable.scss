@@ -1,2 +1,21 @@
 $color-marca: #6e9e96;
 $color-casiblanco: #f3f8f7;
+
+$tamanio-tipografia: (
+    titulo: 36px,
+    subtitulos: 32px,
+    parrafo: 18px,
+);
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin flexbox ($direction, $justify, $align) {
+    display: flex;
+    direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+};
