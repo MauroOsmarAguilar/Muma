@@ -19,7 +19,7 @@ header {
         font-weight: bold;
         color: none;
 
-        .ul {
+        ul {
             background-color: $color-casiblanco;
             list-style-type: none;
             margin: 0px;
@@ -27,12 +27,12 @@ header {
             background-color: none;
         }
     
-        .li {
+        li {
             background-color: none;
             font-size: map-get($tamanio-tipografia, titulo);
         }
 
-        .navbar a {
+        a {
             list-style: none;
             text-decoration: none;
             padding: 20px;
@@ -40,7 +40,7 @@ header {
             background-color: none;
         }
 
-        .navbar a:hover {
+        a:hover {
             background-color: $color-marca;
             background-size: 100%;
             height: 85px;
@@ -70,10 +70,10 @@ header {
             margin: 0px;
             padding: 0px;
 
-            .a {
+            a {
                 background-color: none;
             }
-            .a:hover {
+            a:hover {
                 background-color: none;
             }
         }
