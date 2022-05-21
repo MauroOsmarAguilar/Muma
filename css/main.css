@@ -1,4 +1,4 @@
-.inicio {
+.navbar, .inicio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,94 +11,58 @@
 }
 
 header {
-  background: #f3f8f7;
-  background-color: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%);
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  -webkit-transition: 0.5s ease-out;
-  transition: 0.5s ease-out;
-}
-
-header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 75px;
-  margin: 0px;
-  list-style: none;
-  background-color: #f3f8f7;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #f3f8f7;
+  margin: auto;
+  height: 62px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding: 0px;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
   font-family: 'Calibri';
   font-size: 36px;
   font-weight: bold;
-  color: none;
 }
 
-header .container ul {
+.navbar {
   background-color: #f3f8f7;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  background-color: none;
 }
 
-header .container li {
-  background-color: none;
-  font-size: 36px;
+.navbar .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-header .container a {
-  list-style: none;
-  text-decoration: none;
-  padding: 20px;
-  margin: 20px;
-  background-color: none;
-}
-
-header .container a:hover {
-  background-color: #6e9e96;
-  background-size: 100%;
-  height: 85px;
-  margin: 0px;
-  color: #f3f8f7;
-  font-weight: bold;
-  border-radius: 20px;
-  -webkit-transition: 0.5s ease-out;
-  transition: 0.5s ease-out;
-}
-
-header .container .navlink {
-  padding: 0px;
-  margin: 0px;
-  color: #6e9e96;
-  letter-spacing: 1.5px;
-  font-size: 18px;
-}
-
-header .container .nav-item {
-  padding: 0px;
-  margin: 0px;
-}
-
-header .container .navbar__logo {
+.navbar .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100px;
   height: 30px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  opacity: 100%;
 }
 
-header .container .navbar__logo a {
-  background-color: none;
-}
-
-header .container .navbar__logo a:hover {
-  background-color: none;
+.navbar .navbar-toggler {
+  background-color: #f3f8f7;
+  line-color: #6e9e96;
 }
 
 .inicio {
@@ -339,7 +303,7 @@ header .container .navbar__logo a:hover {
   background-size: cover;
 }
 
-.banner .banner__container {
+.banner__container {
   margin: auto;
   padding: auto;
   z-index: 1;
@@ -353,7 +317,8 @@ header .container .navbar__logo a:hover {
 }
 
 .h1banner {
-  font-family: 'Calibri';
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
   color: #f3f8f7;
   border-top: solid 1px;
   border-color: #fdf8f05d;

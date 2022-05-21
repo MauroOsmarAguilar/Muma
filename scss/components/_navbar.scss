@@ -1,0 +1,24 @@
+.navbar{
+    @extend %flex-center;
+    background-color: $color-casiblanco;
+
+    .container-fluid {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar-brand {
+        display: flex;
+        width: 100px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        opacity: 100%;
+    }
+    .navbar-toggler {
+        background-color: $color-casiblanco;
+        line-color: $color-marca;
+    }
+
+}
