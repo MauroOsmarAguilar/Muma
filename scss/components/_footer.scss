@@ -3,10 +3,11 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #b1d4ce;
     font-family: 'Calibri';
     font-style: normal;
+    padding: 20px;
 
     h4 {
         text-decoration: none;
@@ -19,8 +20,6 @@
     .footmenu {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
 
         .iconlist {
             margin: 5px 5px 0px 0px;
@@ -60,26 +59,27 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 30px;
-    }
 
-    .footinput {
-        display: flex;
-        justify-content: space-between;
-        background-color: none;
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-        .footinput input {
+        .footinput {
             display: flex;
-            background-color: #f0fdf7;
-            border: none;
-            border-radius: 5px;
-            padding: 5px;
-            margin: 0px 10px 10px 0px;
-            width: 100%;
+            justify-content: space-between;
+            background-color: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+    
+            input {
+                display: flex;
+                background-color: #f0fdf7;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                margin: 0px 10px 10px 0px;
+                width: 100%;
+            }
         }
     }
+
+    
 
     .foottext textarea{
         display: flex;
@@ -113,8 +113,6 @@
     .footrrss {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
 
         ul {
             text-decoration: none;
@@ -138,8 +136,8 @@
     
         .iconrrss {
             margin: 5px 10px 0px 0px;
-            width: 40px;
-            height: 40px;
+            width: 33px;
+            height: 33px;
             filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);
         }
     }

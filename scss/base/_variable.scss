@@ -4,6 +4,8 @@ $color-marca-light: #a0d1c9;
 $color-marca-active: #66bdae;
 $color-casiblanco: #f3f8f7;
 
+$degradado-marca: linear-gradient(45deg, $color-marca-dark 0%, $color-marca 50%, $color-marca-active 100%);
+
 $tamanio-tipografia: (
     titulo: 36px,
     subtitulos: 32px,

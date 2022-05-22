@@ -1,0 +1,37 @@
+.servicio {
+    background-color: $color-casiblanco;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    filter: drop-shadow(-1px 1px 7px #2b544224);
+    
+    img {
+        display: block;
+        margin: 0px auto;
+        padding: 10px 10px 10px 0px;
+        text-align: center;
+        height: 200px;
+        filter: #FFFFFF;
+    }
+
+    .servicio-texto {
+        font-family: 'Calibri';
+        color: #282828;
+        font-size: 16px;
+        text-align: left;
+        margin: 0px 20px 20px 20px;
+        text-align: center;
+    }
+
+    h2 {
+        background-color: none;
+        color: #5b8881;
+        font-family: 'Calibri';
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 20px 0px 20px;
+    }
+}

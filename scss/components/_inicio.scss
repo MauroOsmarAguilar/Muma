@@ -106,7 +106,7 @@
         border-radius: 5px;
     }
 
-    .caso h2 {
+    h2 {
         font-family: 'Calibri';
         font-weight: bolder;
         font-size: 50px;
@@ -117,7 +117,7 @@
         margin-top: 0px;
     }
 
-    .caso p {
+    p {
         font-family: 'Calibri';
         color: #FFFFFF;
         font-size: 16px;
@@ -126,42 +126,7 @@
     }
 }
 
-.servicio {
-    background-color: #FFFFFF;
-    justify-content: center;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    height: 100%;
-    filter: drop-shadow(-1px 1px 7px #2b544224);
-    
-    .servicio img {
-        display: block;
-        margin: 0px auto;
-        padding: 10px 10px 10px 0px;
-        text-align: center;
-        height: 200px;
-    }
 
-    .servicio-texto {
-        font-family: 'Calibri';
-        color: #282828;
-        font-size: 16px;
-        text-align: left;
-        margin: 0px 20px 20px 20px;
-        text-align: center;
-    }
-
-    .servicio h2 {
-        background-color: none;
-        color: #5b8881;
-        font-family: 'Calibri';
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-        margin: 20px 20px 0px 20px;
-    }
-}
 
 .lastmain {
     display: flex;

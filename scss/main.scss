@@ -2,6 +2,7 @@
 @import './components/header';
 @import './components/navbar';
 @import './components/inicio';
+@import './components/servicios';
 @import './components/banner';
 @import './components/accordion';
 @import './components/footer';
@@ -10,4 +11,8 @@
 * {
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: $color-casiblanco;
 }

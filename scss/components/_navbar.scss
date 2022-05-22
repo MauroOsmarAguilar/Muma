@@ -4,7 +4,7 @@
     .container-fluid {        
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         font-family: 'Calibri';
         font-size: map-get($tamanio-tipografia, menu);
         font-weight: bold;
