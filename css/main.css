@@ -81,6 +81,29 @@ header {
   border-color: #6e9e96;
 }
 
+.carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  height: auto;
+}
+
+.carrousel h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f3f8f7;
+  font-family: 'Calibri';
+  font-weight: bold;
+}
+
 .inicio {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -116,26 +139,6 @@ header {
   font-weight: bold;
   text-align: center;
   margin: 10px 0px 20px 0px;
-}
-
-.carrousel {
-  margin: 0px;
-  padding: 40px 20px 40px 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.carrousel h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #6e9e96;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
 }
 
 .lastmain {
@@ -283,8 +286,6 @@ header {
   padding: 10px 10px 10px 0px;
   text-align: center;
   height: 200px;
-  -webkit-filter: #FFFFFF;
-          filter: #FFFFFF;
 }
 
 .servicio .servicio-texto {
@@ -367,26 +368,13 @@ header {
   background-size: cover;
 }
 
-.banner2 .banner__container2 {
+.banner2__container2 {
   margin: auto;
   padding: auto;
 }
 
-.banner2 .banner__container__img2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-filter: drop-shadow(-1px 1px 7px #111815b3);
-          filter: drop-shadow(-1px 1px 7px #111815b3);
-}
-
-.banner2 .h1banner2 {
-  font-family: 'Calibri';
+.banner2 h1 {
+  font-family: 'Montserrat', sans-serif;
   color: #f3f8f7;
   border-bottom: solid 1px;
   border-color: #fdf8f05d;
@@ -404,14 +392,13 @@ header {
   text-align: center;
 }
 
-.banner2 .banner2 p {
+.banner2 p {
+  font-family: 'Montserrat', sans-serif;
   background-color: none;
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
-  font-family: 'Calibri';
-  font-size: 28px;
+  font-size: 24px;
   text-shadow: #111815b3 0.1em 0.1em 0.2em;
 }
 
@@ -439,9 +426,9 @@ header {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #b1d4ce;
   font-family: 'Calibri';
   font-style: normal;

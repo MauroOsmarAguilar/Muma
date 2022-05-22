@@ -1,0 +1,14 @@
+.carrousel {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: auto;
+
+    h5 {
+        display: flex;
+        justify-content: center;
+        color: $color-casiblanco;
+        font-family: 'Calibri';
+        font-weight: bold;
+    }
+}

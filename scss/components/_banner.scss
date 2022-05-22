@@ -44,21 +44,13 @@
     background-position: center;
     background-size: cover;
 
-    .banner__container2 {
+    &__container2 {
         margin: auto;
         padding: auto;
     }
 
-    .banner__container__img2 {
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        filter: drop-shadow(-1px 1px 7px #111815b3);
-    }
-
-    .h1banner2 {
-        font-family: 'Calibri';
+    h1 {
+        font-family: 'Montserrat', sans-serif;
         color: #f3f8f7;
         border-bottom: solid 1px;
         border-color: #fdf8f05d;
@@ -71,14 +63,13 @@
         text-align: center;
     }
 
-    .banner2 p {
+    p {
+        font-family: 'Montserrat', sans-serif;
         background-color: none;
         color: #FFFFFF;
         text-align: center;
         text-decoration: none;
-        font-weight: bold;
-        font-family: 'Calibri';
-        font-size: 28px;
+        font-size: 24px;
         text-shadow: #111815b3 0.1em 0.1em 0.2em;
     }
 }
