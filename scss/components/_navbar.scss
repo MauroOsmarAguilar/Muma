@@ -1,24 +1,37 @@
 .navbar{
-    @extend %flex-center;
     background-color: $color-casiblanco;
 
     .container-fluid {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-    }
+        justify-content: space-evenly;
+        font-family: 'Calibri';
+        font-size: map-get($tamanio-tipografia, menu);
+        font-weight: bold;
+        color: $color-marca;
+        
+        .nav-link {
+            color: $color-marca;
+        }
+        .nav-link:hover {
+            background-color: grad;
+            background-size: 100%;
+            color: $color-marca-active;
+            transition: 0.5s ease-out;
+        }
 
-    .navbar-brand {
-        display: flex;
-        width: 100px;
-        height: 30px;
-        margin: 0;
-        padding: 0;
-        opacity: 100%;
-    }
-    .navbar-toggler {
-        background-color: $color-casiblanco;
+        .navbar-brand {
+            display: flex;
+            width: 100px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            opacity: 100%;
+        }
 
+        .navbar-toggler {
+            background-color: $color-casiblanco;
+            border-color: $color-marca;
+        }
     }
-
 }

@@ -1,11 +1,14 @@
 $color-marca: #6e9e96;
-$color-marcadark: #1f392d;
+$color-marca-dark: #1f392d;
+$color-marca-light: #a0d1c9;
+$color-marca-active: #66bdae;
 $color-casiblanco: #f3f8f7;
 
 $tamanio-tipografia: (
     titulo: 36px,
     subtitulos: 32px,
     parrafo: 18px,
+    menu: 18px,
 );
 
 %flex-center {

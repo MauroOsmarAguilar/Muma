@@ -1,4 +1,4 @@
-.navbar, .inicio {
+.inicio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,11 +45,28 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: 'Calibri';
+  font-size: 18px;
+  font-weight: bold;
+  color: #6e9e96;
 }
 
-.navbar .navbar-brand {
+.navbar .container-fluid .nav-link {
+  color: #6e9e96;
+}
+
+.navbar .container-fluid .nav-link:hover {
+  background-color: grad;
+  background-size: 100%;
+  color: #66bdae;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.navbar .container-fluid .navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,8 +77,9 @@ header {
   opacity: 100%;
 }
 
-.navbar .navbar-toggler {
+.navbar .container-fluid .navbar-toggler {
   background-color: #f3f8f7;
+  border-color: #6e9e96;
 }
 
 .inicio {
