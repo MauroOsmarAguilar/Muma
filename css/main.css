@@ -22,7 +22,7 @@ header {
           justify-content: space-evenly;
   background: #f3f8f7;
   margin: auto;
-  height: 62px;
+  height: auto;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -59,13 +59,12 @@ header {
 
 .navbar .container-fluid .nav-link:hover {
   background-color: none;
-  background-size: 100%;
   color: #66bdae;
   -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
-.navbar .container-fluid .navbar-brand {
+.navbar .container-fluid img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +72,6 @@ header {
   height: 30px;
   margin: 0;
   padding: 0;
-  opacity: 100%;
 }
 
 .navbar .container-fluid .navbar-toggler {
@@ -81,27 +79,41 @@ header {
   border-color: #6e9e96;
 }
 
-.carrousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.sobremi {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px;
-  height: auto;
+  padding: 20px;
+  margin: 0px;
+  background-color: #6e9e96;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #1f392d;
 }
 
-.carrousel h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #f3f8f7;
+.sobremi .hola {
+  padding: 20px;
+}
+
+.sobremi .hola h4 {
   font-family: 'Calibri';
   font-weight: bold;
+  color: #f3f8f7;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.sobremi img {
+  padding: 0px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.sobremi p {
+  margin: 0px 0px 0px 0px;
+  font-family: 'Calibri';
+  color: #f3f8f7;
 }
 
 .inicio {
@@ -110,31 +122,31 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0px;
-  padding: 40px 20px 40px 20px;
+  padding: 30px 20px 30px 20px;
   text-align: center;
-  background-color: #6e9e96;
+  background-color: #f3f8f7;
   border-style: solid;
   border-width: 1px 0px 1px 0px;
-  border-color: #5b8881;
+  border-color: #d7d7d7;
 }
 
 .inicio h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   font-size: 36px;
-  color: #f3f8f7;
+  color: #6e9e96;
 }
 
 .inicio p {
   font-family: 'Calibri';
-  color: #f3f8f7;
+  color: #1f392d;
   font-size: 18px;
   margin-top: 5px;
 }
 
 .inicio h3 {
   background-color: none;
-  color: #f3f8f7;
+  color: #6e9e96;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -161,39 +173,6 @@ header {
   transition: 2s ease-out;
 }
 
-.lastmain .lastmaintitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #5b8881;
-  margin: 5%;
-  margin-left: 35vh;
-  margin-right: 0px;
-  padding: 20px 20px 20px 30px;
-  font-family: 'Calibri';
-  font-size: 20px;
-  color: #f3f8f7;
-}
-
-.lastmain .lastmaincontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #f3f8f7;
-  margin: 5%;
-  margin-right: 35vh;
-  margin-left: 0%;
-  padding: 3%;
-  font-family: 'Calibri';
-  color: #121212;
-}
-
 .maincasos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,7 +193,7 @@ header {
 .maincasos .caso {
   background-color: #6e9e96;
   border: solid 1px #3e4a4830;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   margin: 10px;
   height: 100%;
@@ -224,7 +203,7 @@ header {
   background-color: none;
   max-width: 100%;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .maincasos h2 {
@@ -369,8 +348,8 @@ header {
 }
 
 .banner2__container2 {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .banner2 h1 {

@@ -2,30 +2,30 @@
     @extend %flex-center;
     flex-direction: column;
     margin: 0px;
-    padding: 40px 20px 40px 20px;
+    padding: 30px 20px 30px 20px;
     text-align: center;
-    background-color: $color-marca;
+    background-color: $color-casiblanco;
     border-style: solid;
     border-width: 1px 0px 1px 0px;
-    border-color: #5b8881;
+    border-color: #d7d7d7;
 
     h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: bolder;
         font-size: map-get($tamanio-tipografia, titulo);
-        color: $color-casiblanco;
+        color: $color-marca;
     }
 
     p {
         font-family: 'Calibri';
-        color: $color-casiblanco;
+        color: $color-marca-dark;
         font-size: map-get($tamanio-tipografia, parrafo);
         margin-top: 5px;
     }
 
     h3 {
         background-color: none;
-        color: $color-casiblanco;
+        color: $color-marca;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         font-size: map-get($tamanio-tipografia, subtitulo);
@@ -44,31 +44,6 @@
     background-position: center;
     background-size: cover; 
     transition: 2s ease-out;
-
-    .lastmaintitle {
-        display: flex;
-        justify-content: center;
-        background-color: #5b8881;
-        margin: 5%;
-        margin-left: 35vh;
-        margin-right: 0px;
-        padding: 20px 20px 20px 30px;
-        font-family: 'Calibri';
-        font-size: 20px;
-        color: #f3f8f7;
-    }
-
-    .lastmaincontainer {
-        display: flex;
-        justify-content: center;
-        background-color: #f3f8f7;
-        margin: 5%;
-        margin-right: 35vh;
-        margin-left: 0%;
-        padding: 3%;
-        font-family: 'Calibri';
-        color: #121212;
-    }
 }
 
 .maincasos {
@@ -81,7 +56,7 @@
     .caso {
         background-color: #6e9e96;
         border: solid 1px #3e4a4830;
-        border-radius: 5px;
+        border-radius: 10px;
         padding: 10px;
         margin: 10px;
         height: 100%;
@@ -91,7 +66,7 @@
         background-color: none;
         max-width: 100%;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     h2 {

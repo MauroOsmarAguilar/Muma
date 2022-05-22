@@ -15,18 +15,16 @@
         }
         .nav-link:hover {
             background-color: none;
-            background-size: 100%;
             color: $color-marca-active;
             transition: 0.5s ease-out;
         }
 
-        .navbar-brand {
+        img {
             display: flex;
             width: 100px;
             height: 30px;
             margin: 0;
             padding: 0;
-            opacity: 100%;
         }
 
         .navbar-toggler {
