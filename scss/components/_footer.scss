@@ -8,7 +8,7 @@
     font-family: 'Calibri';
     font-style: normal;
 
-    .foot h4 {
+    h4 {
         text-decoration: none;
         font-weight: bold;
         font-size: 25px;
@@ -22,28 +22,36 @@
         margin-top: 20px;
         margin-bottom: 20px;
 
-        .footmenu .iconlist {
+        .iconlist {
             margin: 5px 5px 0px 0px;
         }
     
-        .footmenu .iconlist:hover {
+        .iconlist:hover {
             filter: opacity(0.8);
         }
 
-        .footmenu ul {
+        ul {
             text-decoration: none;
             list-style-type: none;
         }
 
-        .footmenu ul li a {
+        li {
+            font-family: 'Calibri';
+        }
+
+        a {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: left;
+            font-family: 'Calibri';
+            text-decoration: none;
+            font-weight: bold;
+            color: #3e4a48;
         }
 
-        .footmenu ul li a:hover {
-            text-decoration: underline;
+        a:hover {
+            color: $color-marca-dark;
             filter: opacity(0.8);
         }
     }   
@@ -108,19 +116,23 @@
         margin-top: 20px;
         margin-bottom: 20px;
 
-        .footrrss ul {
+        ul {
             text-decoration: none;
             list-style-type: none;
         }
     
-        .footrrss ul li a {
+        a {
             display: flex;
             flex-direction: row;
             align-items: center;
+            font-family: 'Calibri';
+            text-decoration: none;
+            font-weight: bold;
+            color: #3e4a48;
         }
     
-        .footrrss a:hover {
-            text-decoration: underline;
+        a:hover {
+            color: $color-marca-dark;
             filter: opacity(0.8);
         }
     
@@ -128,14 +140,7 @@
             margin: 5px 10px 0px 0px;
             width: 40px;
             height: 40px;
-            filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);;
+            filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);
         }
-    }
-
-    .foot a {
-        list-style: none;
-        color:#3e4a48;
-        text-decoration: none;
-        font-weight: bold;
     }
 }

@@ -1,7 +1,7 @@
 .navbar{
     background-color: $color-casiblanco;
 
-    .container-fluid {
+    .container-fluid {        
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -14,7 +14,7 @@
             color: $color-marca;
         }
         .nav-link:hover {
-            background-color: grad;
+            background-color: none;
             background-size: 100%;
             color: $color-marca-active;
             transition: 0.5s ease-out;

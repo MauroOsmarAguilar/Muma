@@ -59,7 +59,7 @@ header {
 }
 
 .navbar .container-fluid .nav-link:hover {
-  background-color: grad;
+  background-color: none;
   background-size: 100%;
   color: #66bdae;
   -webkit-transition: 0.5s ease-out;
@@ -446,7 +446,7 @@ header {
   font-style: normal;
 }
 
-.foot .foot h4 {
+.foot h4 {
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
@@ -465,21 +465,25 @@ header {
   margin-bottom: 20px;
 }
 
-.foot .footmenu .footmenu .iconlist {
+.foot .footmenu .iconlist {
   margin: 5px 5px 0px 0px;
 }
 
-.foot .footmenu .footmenu .iconlist:hover {
+.foot .footmenu .iconlist:hover {
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
 }
 
-.foot .footmenu .footmenu ul {
+.foot .footmenu ul {
   text-decoration: none;
   list-style-type: none;
 }
 
-.foot .footmenu .footmenu ul li a {
+.foot .footmenu li {
+  font-family: 'Calibri';
+}
+
+.foot .footmenu a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,10 +497,14 @@ header {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  font-family: 'Calibri';
+  text-decoration: none;
+  font-weight: bold;
+  color: #3e4a48;
 }
 
-.foot .footmenu .footmenu ul li a:hover {
-  text-decoration: underline;
+.foot .footmenu a:hover {
+  color: #1f392d;
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
 }
@@ -586,12 +594,12 @@ header {
   margin-bottom: 20px;
 }
 
-.foot .footrrss .footrrss ul {
+.foot .footrrss ul {
   text-decoration: none;
   list-style-type: none;
 }
 
-.foot .footrrss .footrrss ul li a {
+.foot .footrrss a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -602,10 +610,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Calibri';
+  text-decoration: none;
+  font-weight: bold;
+  color: #3e4a48;
 }
 
-.foot .footrrss .footrrss a:hover {
-  text-decoration: underline;
+.foot .footrrss a:hover {
+  color: #1f392d;
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
 }
@@ -616,13 +628,6 @@ header {
   height: 40px;
   -webkit-filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);
           filter: invert(24%) sepia(10%) saturate(591%) hue-rotate(120deg) brightness(98%) contrast(84%);
-}
-
-.foot .foot a {
-  list-style: none;
-  color: #3e4a48;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .footcopy {
