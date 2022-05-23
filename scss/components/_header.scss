@@ -4,10 +4,14 @@ header {
     justify-content: space-evenly;
     background: $color-casiblanco;
     margin: 0px;
-    width: 100vh;
+    width: 0px;
     padding: 0px;
     transition: 0.5s ease-out;
     font-family: 'Calibri';
     font-size: map-get($tamanio-tipografia, titulo);
     font-weight: bold;
+    border-bottom: solid 1px;
+    border-color: #bebebe20;
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10); 
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10);
 }
