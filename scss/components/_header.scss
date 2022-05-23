@@ -3,11 +3,8 @@ header {
     align-items: center;
     justify-content: space-evenly;
     background: $color-casiblanco;
-    margin: auto;
-    height: auto;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
+    margin: 0px;
+    width: 100vh;
     padding: 0px;
     transition: 0.5s ease-out;
     font-family: 'Calibri';

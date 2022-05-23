@@ -1,13 +1,12 @@
 .foot {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #b1d4ce;
     font-family: 'Calibri';
     font-style: normal;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
 
     h4 {
         text-decoration: none;

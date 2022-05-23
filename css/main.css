@@ -21,11 +21,8 @@ header {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background: #f3f8f7;
-  margin: auto;
-  height: auto;
-  width: 100%;
-  position: fixed;
-  z-index: 10;
+  margin: 0px;
+  width: 100vh;
   padding: 0px;
   -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
@@ -396,22 +393,17 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #b1d4ce;
   font-family: 'Calibri';
   font-style: normal;
-  padding: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .foot h4 {
