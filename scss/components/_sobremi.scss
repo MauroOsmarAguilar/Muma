@@ -1,37 +1,56 @@
 .sobremi {
+    align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     margin: 0px;
     background-color: $color-marca;
-    border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color: $color-marca-dark;
+    background: linear-gradient(90deg, rgba(110,158,150,1) 0%, rgba(130,205,193,1) 100%);
 
-    .hola {
-        padding: 20px;
+    .container {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border-radius: 20px;
+        background-color: $color-casiblanco;
+        -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10); 
+        box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10);
 
-        h4 {
+        .hola {
+            padding: 20px;
+    
+            h4 {
+                font-family: 'Calibri';
+                font-weight: bold;
+                color: $color-marca;
+                border-style: solid;
+                border-width: 0px 0px 1px 0px;
+                
+            }
+        }
+
+        img {
+            padding: 20px;
+            height: 250px;
+            width: 250px;
+            border-radius: 500px;
+        }
+        
+        p {
+            margin: 0px 0px 0px 0px;
             font-family: 'Calibri';
-            font-weight: bold;
-            color: $color-casiblanco;
-            border-style: solid;
-            border-width: 0px 0px 1px 0px;
-            
+            color: $color-marca-dark;
+            opacity: 0.8;
         }
     }
 
-    img {
-        padding: 0px;
-        height: 300px;
-        width: 300px;
-        border-radius: 10px;
-    }
     
-    p {
-        margin: 0px 0px 0px 0px;
-        font-family: 'Calibri';
-        color: $color-casiblanco;
-    }
+
+
 }
 
 

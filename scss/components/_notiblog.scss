@@ -1,0 +1,97 @@
+.notiblog {
+    margin: 20px;
+    padding: 0px 40px 0px 40px;
+    background-color: $color-casiblanco;
+
+    h1 {
+        color: $color-marca;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        margin: 20px;
+        color: $color-marca;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    
+    button {
+        background-color: $color-marca;
+        border: solid 1px #3e4a4830;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        color: $color-casiblanco;
+        padding: 0px;
+        margin: 0px;
+        font-size: bold;
+        text-align: center;
+        text-decoration: none;
+        transition: 1s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $color-marca-active;
+            color: $color-marca-dark;
+            }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            font-family: 'Calibri';
+            text-decoration: none;
+            font-weight: bold;
+            color: $color-marca;
+
+            a:hover {
+                filter: invert(68%) sepia(77%) saturate(213%) hue-rotate(120deg) brightness(86%) contrast(100%);
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .card-group{
+        margin: 0px;
+        padding: 0px;
+        background-color: none;
+
+        .card {
+            margin: 5px;
+            padding: 0px;
+            background-color: none;
+            border: solid 1px #6e9e9630;
+            border-radius: 20px 20px 0px 0px;
+
+            h5 {
+                color: $color-marca;
+            }
+            p {
+                color: $color-marca-dark;
+                opacity: 0.8;
+            }
+            a {
+                color: $color-marca;
+                transition: 1s;
+            }
+
+            a:hover{
+                color: $color-marca-dark;
+            }
+
+            .card-img-top {
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            .card-footer {
+                font-size: 12px;
+            }
+
+        }
+    }
+}
