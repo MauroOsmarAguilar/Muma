@@ -298,14 +298,20 @@ header {
 }
 
 .notiblog button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #6e9e96;
   border: solid 1px #3e4a4830;
-  width: 300px;
+  width: 200px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #f3f8f7;
-  padding: 0px;
-  margin: 0px;
+  padding: 5px;
+  margin: auto;
   font-size: bold;
   text-align: center;
   text-decoration: none;
@@ -326,13 +332,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
   font-family: 'Calibri';
   text-decoration: none;
-  font-weight: bold;
-  color: #6e9e96;
+  font-size: 24px;
+  color: #f3f8f7;
 }
 
 .notiblog button a a:hover {
