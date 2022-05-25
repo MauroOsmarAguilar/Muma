@@ -12,24 +12,33 @@
         
         .nav-link {
             color: $color-marca;
+            transition: 1s;
         }
         .nav-link:hover {
             background-color: none;
-            color: $color-marca-active;
-            transition: 0.5s ease-out;
+            color: $color-marca-dark;
         }
 
         img {
             display: flex;
             width: 100px;
             height: 30px;
-            margin: 0;
+            margin: auto;
             padding: 0;
         }
 
         .navbar-toggler {
             background-color: $color-casiblanco;
             border-color: $color-marca;
+        }
+
+        ul {
+            justify-content: center;
+            text-align: center;
+        }
+        li {
+            margin: 0px 10px 0px 10px;
+            letter-spacing: 2px;
         }
     }
 }
