@@ -403,9 +403,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0px;
   margin: 10px;
-  height: 100%;
+  height: auto;
   -webkit-filter: drop-shadow(-1px 1px 7px #2b544224);
           filter: drop-shadow(-1px 1px 7px #2b544224);
 }
@@ -435,6 +435,65 @@ header {
   font-size: 30px;
   text-align: center;
   margin: 20px 20px 0px 20px;
+}
+
+h3 {
+  margin: 20px 0px 5px 0px;
+  color: #6e9e96;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #6e9e96;
+  border: solid 1px #3e4a4830;
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  color: #f3f8f7;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: bold;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #66bdae;
+  color: #1b4a43;
+}
+
+button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Calibri';
+  text-decoration: none;
+  font-size: 24px;
+  color: #f3f8f7;
+}
+
+button a:hover {
+  color: #f3f8f7;
+  -webkit-filter: invert(68%) sepia(77%) saturate(213%) hue-rotate(120deg) brightness(86%) contrast(100%);
+          filter: invert(68%) sepia(77%) saturate(213%) hue-rotate(120deg) brightness(86%) contrast(100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .banner {
