@@ -54,8 +54,6 @@ footer {
         }
     }
 
-
-
     .newsletter {
 
         h3 {
@@ -110,6 +108,9 @@ footer {
 .footcopy {
     margin: 0px;
     padding: 5px 0px 5px 0px;
+    border: solid 1px $color-marca;
+    border-left: 0px;
+    border-right: 0px;
     background-color: $color-casiblanco;
     color: $color-marca-dark;
 }
