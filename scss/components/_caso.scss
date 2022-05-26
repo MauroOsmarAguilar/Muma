@@ -1,13 +1,11 @@
-.sobremi {
+.caso {
     align-items: center;
     justify-content: center;
     padding: 20px 0px 20px 20px;
     margin: 0px;
-    background-color: $color-marca;
-    border-width: 0px 0px 1px 0px;
-    background: linear-gradient(90deg, rgba(110,158,150,1) 0%, rgba(130,205,193,1) 100%);
+    background-color: none;
 
-    .container {
+    &__contenedor {
         justify-content: center;
         align-items: center;
         position: relative;
@@ -48,5 +46,3 @@
         }
     }
 }
-
-
