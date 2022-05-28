@@ -82,35 +82,38 @@ footer {
             width: 165px;
             height: 30px;
         }
-        button {
+        
+        .boton {
             background-color: $color-marca;
             border: solid 1px #3e4a4830;
             width: 50px;
             height: 30px;
             border-radius: 0px 5px 5px 0px;
             color: $color-casiblanco;
-            padding: 0px;
+            padding: 2px;
             margin: 0px;
             font-size: bold;
             text-align: center;
             text-decoration: none;
             cursor: pointer;
     
-                &:hover {
+            &:hover {
                 background-color: $color-marca-active;
                 color: $color-marca-dark;
                 transition: 0.5s;
-                }
             }
-    }  
-}
 
-.footcopy {
+            
+        }
+    }   
+}    
+
+.copy {
     margin: 0px;
     padding: 5px 0px 5px 0px;
-    border: solid 1px $color-marca;
-    border-left: 0px;
-    border-right: 0px;
-    background-color: $color-casiblanco;
-    color: $color-marca-dark;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 12px;
+    background-color: $color-marca;
+    color: $color-casiblanco;
 }

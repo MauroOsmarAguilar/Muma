@@ -26,7 +26,7 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background: #f3f8f7;
+  background-color: #f3f8f7;
   margin: auto;
   padding: 0px;
   -webkit-transition: 0.5s ease-out;
@@ -51,8 +51,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Calibri';
   font-size: 18px;
   font-weight: bold;
@@ -71,18 +72,13 @@ header {
 }
 
 .navbar .container-fluid img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100px;
   height: 30px;
-  margin: auto;
-  padding: 0;
-}
-
-.navbar .container-fluid .navbar-toggler {
-  background-color: #f3f8f7;
-  border-color: #6e9e96;
+  margin: 0px 60px 0px 0px;
+  padding: 0px;
 }
 
 .navbar .container-fluid ul {
@@ -179,6 +175,7 @@ header {
 .inicio p {
   font-family: 'Calibri';
   color: #1b4a43;
+  opacity: 0.9;
   font-size: 18px;
   margin-top: 5px;
 }
@@ -665,22 +662,22 @@ button a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   height: 300px;
-  background-image: linear-gradient(45deg, #52947560 0%, #8bd6c960 50%, #f0fdf760 100%), url(../images/bannercasos.jpg);
+  background-image: url(../images/bannerp2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .banner2__container2 {
-  margin: 0;
+  margin-top: 120px;
   padding: 0;
 }
 
-.banner2 h1 {
+.banner2__container2 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #f3f8f7;
   border-bottom: solid 1px;
-  border-color: #fdf8f05d;
+  border-color: #fdf8f030;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -688,21 +685,19 @@ button a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-shadow: #111815b3 0.1em 0.1em 0.2em;
   font-size: 48px;
   letter-spacing: 10px;
   text-justify: center;
   text-align: center;
 }
 
-.banner2 p {
+.banner2__container2 p {
   font-family: 'Montserrat', sans-serif;
   background-color: none;
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  text-shadow: #111815b3 0.1em 0.1em 0.2em;
 }
 
 .accordion {
@@ -811,14 +806,14 @@ footer .newsletter input {
   height: 30px;
 }
 
-footer .newsletter button {
+footer .newsletter .boton {
   background-color: #6e9e96;
   border: solid 1px #3e4a4830;
   width: 50px;
   height: 30px;
   border-radius: 0px 5px 5px 0px;
   color: #f3f8f7;
-  padding: 0px;
+  padding: 2px;
   margin: 0px;
   font-size: bold;
   text-align: center;
@@ -826,21 +821,21 @@ footer .newsletter button {
   cursor: pointer;
 }
 
-footer .newsletter button:hover {
+footer .newsletter .boton:hover {
   background-color: #66bdae;
   color: #1b4a43;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.footcopy {
+.copy {
   margin: 0px;
   padding: 5px 0px 5px 0px;
-  border: solid 1px #6e9e96;
-  border-left: 0px;
-  border-right: 0px;
-  background-color: #f3f8f7;
-  color: #1b4a43;
+  text-align: center;
+  font-family: 'Calibri';
+  font-size: 12px;
+  background-color: #6e9e96;
+  color: #f3f8f7;
 }
 
 .footcopy {

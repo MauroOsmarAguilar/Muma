@@ -4,7 +4,7 @@
     .container-fluid {        
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         font-family: 'Calibri';
         font-size: map-get($tamanio-tipografia, menu);
         font-weight: bold;
@@ -20,16 +20,11 @@
         }
 
         img {
-            display: flex;
+            justify-content: center;
             width: 100px;
             height: 30px;
-            margin: auto;
-            padding: 0;
-        }
-
-        .navbar-toggler {
-            background-color: $color-casiblanco;
-            border-color: $color-marca;
+            margin: 0px 60px 0px 0px;
+            padding: 0px;
         }
 
         ul {

@@ -19,6 +19,7 @@
     p {
         font-family: 'Calibri';
         color: $color-marca-dark;
+        opacity: 0.9;
         font-size: map-get($tamanio-tipografia, parrafo);
         margin-top: 5px;
     }
