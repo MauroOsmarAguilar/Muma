@@ -62,13 +62,13 @@ header {
 
 .navbar .container-fluid .nav-link {
   color: #6e9e96;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .navbar .container-fluid .nav-link:hover {
   background-color: none;
   color: #1b4a43;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .navbar .container-fluid img {

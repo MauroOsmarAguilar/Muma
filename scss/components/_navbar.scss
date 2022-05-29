@@ -12,11 +12,12 @@
         
         .nav-link {
             color: $color-marca;
-            transition: 1s;
+
         }
         .nav-link:hover {
             background-color: none;
             color: $color-marca-dark;
+            transition: 1s;
         }
 
         img {
