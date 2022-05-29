@@ -1,0 +1,65 @@
+.contacto {
+    background-color: none;
+    margin: 20px;
+    padding: 30px 30px 1px 0px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10); 
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.10);
+
+    li {
+        list-style: none;
+        margin: auto;
+        padding: 5px 0px 0px 0px;
+        position: relative;
+
+        .datos {
+            background-color: $color-casiblanco;
+            border: solid 1px #6e9e9654;
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 12px;
+            color: $color-marca-dark;
+            
+            &:hover {
+                background-color: #FFF;
+                transition: 1s;
+            }
+        }
+
+        .mensaje {
+            background-color: $color-casiblanco;
+            border: solid 1px #6e9e9654;
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 12px;
+            color: $color-marca-dark;
+            height: 100px;
+            min-height: 100px;
+
+            &:hover {
+                background-color: #FFF;
+                transition: 1s;
+            }
+        }
+
+        .enviar {
+            background-color: $color-marca;
+            padding: 5px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 10px;
+            font-family: 'Calibri';
+            color: $color-casiblanco;
+
+            &:hover {
+                background-color: $color-marca-active;
+                transition: 1s;
+            }       
+        } 
+    }
+}
