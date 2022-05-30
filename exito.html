@@ -16,7 +16,7 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <!-- TITULO -->
-    <title>MUMA | Contacto</title>
+    <title>MUMA | Educación canina</title>
 </head>
 <body>
     <!-- HEADER -->
@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-between">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">HOME</a>
+                            <a class="nav-link" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="servicio.html">SERVICIO</a>
@@ -45,60 +45,36 @@
                             <a class="nav-link" href="blog.html">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACTO</a>
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- MAIN -->
     <main>
         <!-- BANNER -->
-        <div class="banner2">
-            <div class="banner2__container2">
-                <h1>CONTACTO</h1>
-                <p>¿Cómo te podemos ayudar?</p>
-            </div>
-        </div>
-        <!-- FORMULARIO -->
-        <form action='form.php' method='POST' class='speaker-form'>
-            <div class="contacto col-sx-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
-                <ul>
-                    <li><input type="text" name="name" placeholder="Nombre y apellido" class="datos col-12"></li>
-                    <li><input type="text" name="petname" placeholder="Nombre de tu mascota" class="datos col-12"></li>
-                    <li><input type="text" name="email" placeholder="E-mail" class="datos col-12"></li>
-                    <li><input type="text" name="phone" placeholder="Teléfono" class="datos col-12"></li>
-                    <li><textarea type="text" name="message" placeholder="Mensaje" class="mensaje col-12"></textarea></li>
-                    <li><input type="submit" class="enviar col-12"></li>
-                </ul>
-            </div>
-        </form>
-    </main>
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="footrrss">
-                    <img class="footlogo" src="./images/mumalogofooter.svg">
-                    <h4>SEGUINOS EN NUESTRAS REDES:</h4>
-                    <div class="rrss">
-                        <a href=""><img src="./images/icons/icon-facebook.svg" alt="Logo de Facebook"></a>
-                        <a href=""><img src="./images/icons/icon-instagram.svg" alt="Logo de Instagram"></a>
-                        <a href=""><img src="./images/icons/icon-linkedin.svg" alt="Logo de LinkedIn"></a>
-                        <a href=""><img src="./images/icons/icon-whatsapp.svg" alt="Logo de WhatsApp"></a>
-                    </div>
-                    <div class="newsletter row justify-content-center">
-                        <h3>TEL.: +54 9 11 6574-7132</h3>
-                        <h4>SUSCRIBITE AL NEWSLETTER</h4>
-                        <input type="text" placeholder="E-mail">
-                        <button class="boton">Enviar</button>
-                    </div>
+        <section class="banner">
+                <div class="banner__container">
+                    <img src="./images/mumalogo.svg" alt="Logo de Muma" class="banner__container__img">
+                    <h1 class="h1banner">EDUCANINA</h1>
                 </div>
-            </div>
-        </div>
-    </footer>
-    <!-- COPY -->
-    <section class="copy">© 2022 MUMA | Todos los derechos reservados | Design by Mauro Aguilar</section>
+        </section>
+        <main>
+            Gracias, su mensaje fue enviado con exito
+        </main>
+
+
+
+
+
+
+
+
+    <script>
+        setTimeout(function(){
+            window.location.replace("http://mumaeducacioncanina.com");
+        },5000);
+    </script>
 </body>
 </html>
