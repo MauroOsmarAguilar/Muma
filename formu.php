@@ -1,5 +1,4 @@
 <?php
-
 $destino = "info@mumaeducacioncanina.com";
 
 $nombre = $_POST['nombre'];
@@ -8,8 +7,9 @@ $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 
-$header = "Envío de formulario";
-$mensajecompleto ="\n Nombre: " . $nombre . "\n" . "Mascota: " . $nombremascota . "\n" . "Email: " . $email. "\n" . "Teléfono: " . $telefono . "\n" . "Mensaje: " . $mensaje;
+$header = "Nuevo contacto web";
+$mensajecompleto ="\n Nombre: " . $nombre . "\n" . "Mascota: " . $nombremascota . "\n" . "Email: " . $email. "\n" . "Telefono: " . $telefono . "\n" . "Mensaje: " . $mensaje;
+$asunto = 'Nuevo contacto web';
 
 mail($destino, $asunto, $mensajecompleto, $header);
 header('Location: exito.html');
