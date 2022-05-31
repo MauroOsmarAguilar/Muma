@@ -922,4 +922,45 @@ footer .newsletter .boton:hover {
   text-decoration: none;
   text-align: center;
 }
+
+.gracias {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#6e9e96), to(#82cdc1));
+  background: linear-gradient(90deg, #6e9e96 0%, #82cdc1 100%);
+}
+
+.gracias__contenedor {
+  margin: auto;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.gracias__contenedor img {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 10px 10px 0px;
+  text-align: center;
+  height: 250px;
+}
+
+.gracias__contenedor h2 {
+  font-family: 'Calibri';
+  text-align: center;
+  font-size: 48px;
+  color: #f3f8f7;
+  border-bottom: solid 1px #FFFFFF40;
+}
+
+.gracias__contenedor h3 {
+  font-family: 'Calibri';
+  text-align: center;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #f3f8f7;
+}
 /*# sourceMappingURL=main.css.map */
